@@ -1,0 +1,58 @@
+import type { Truck } from "@/types";
+
+export const seedTrucks: Truck[] = [
+  {
+    id: "truck-1",
+    plateNumber: "AB-123-CD",
+    color: "Blanc",
+    fuelType: "Diesel",
+    mileage: 145000,
+    status: "En service",
+    nextOilChangeMileage: 150000,
+  },
+  {
+    id: "truck-2",
+    plateNumber: "EF-456-GH",
+    color: "Rouge",
+    fuelType: "Diesel",
+    mileage: 210000,
+    status: "En service",
+    nextOilChangeMileage: 200000,
+  },
+  {
+    id: "truck-3",
+    plateNumber: "IJ-789-KL",
+    color: "Bleu",
+    fuelType: "Électrique",
+    mileage: 12000,
+    status: "À l'arrêt",
+    nextOilChangeMileage: 50000,
+  },
+  {
+    id: "truck-4",
+    plateNumber: "MN-012-OP",
+    color: "Gris",
+    fuelType: "Essence",
+    mileage: 98000,
+    status: "À l'arrêt",
+    nextOilChangeMileage: 95000,
+  },
+  {
+    id: "truck-5",
+    plateNumber: "QR-345-ST",
+    color: "Vert",
+    fuelType: "Hybride",
+    mileage: 65000,
+    status: "En maintenance",
+    nextOilChangeMileage: 100000,
+  },
+  {
+    id: "truck-6",
+    plateNumber: "UV-678-WX",
+    color: "Noir",
+    fuelType: "Diesel",
+    mileage: 175000,
+    status: "En maintenance",
+    nextOilChangeMileage: 170000,
+  },
+];
